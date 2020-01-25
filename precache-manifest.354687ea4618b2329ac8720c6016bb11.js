@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d4eec69898a5ab7d801445602607e5d",
+    "revision": "ae54e1f356a7a50965a9fba5c56873f0",
     "url": "/site-yami/index.html"
   },
   {
-    "revision": "8d6c40e1fbe19a0be2df",
-    "url": "/site-yami/static/css/main.727a6213.chunk.css"
+    "revision": "245a17518197ace53f72",
+    "url": "/site-yami/static/css/main.70c4d885.chunk.css"
   },
   {
     "revision": "3f534796e8450f3bb8fd",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/site-yami/static/js/2.840011af.chunk.js.LICENSE"
   },
   {
-    "revision": "8d6c40e1fbe19a0be2df",
-    "url": "/site-yami/static/js/main.30e6b819.chunk.js"
+    "revision": "245a17518197ace53f72",
+    "url": "/site-yami/static/js/main.53dc4f8c.chunk.js"
   },
   {
     "revision": "d4a9fbef79e2d99b2b4f",
@@ -68,7 +68,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/site-yami/static/media/petitpas.8804748d.png"
   },
   {
-    "revision": "e48f18e06561b5ff778bf46c7ea90d90",
-    "url": "/site-yami/static/media/photoprofil.e48f18e0.jpg"
+    "revision": "46300ac3545afd91ddedbb856a2f7658",
+    "url": "/site-yami/static/media/photoprofil.46300ac3.png"
   }
 ]);
