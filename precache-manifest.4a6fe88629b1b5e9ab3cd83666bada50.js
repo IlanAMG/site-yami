@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90306ac86978e78868dbc4c3d7e9cbe9",
+    "revision": "64a27e9473b810e5c4ba7940f7a5f3aa",
     "url": "/site-yami/index.html"
   },
   {
-    "revision": "149911ed2961f4af4180",
-    "url": "/site-yami/static/css/main.f30cbacf.chunk.css"
+    "revision": "231cd9692ba0f0f310c3",
+    "url": "/site-yami/static/css/main.e6d2b969.chunk.css"
   },
   {
     "revision": "eb3335b92d2a5078b21e",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/site-yami/static/js/2.f6d6b4de.chunk.js.LICENSE"
   },
   {
-    "revision": "149911ed2961f4af4180",
+    "revision": "231cd9692ba0f0f310c3",
     "url": "/site-yami/static/js/main.de1f7d82.chunk.js"
   },
   {
