@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body {
+    min-height: 100vh;
+    flex-direction: column;
+    padding:0;
+	margin: 0;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background: linear-gradient(-45deg, rgb(255, 199, 14),rgb(255, 244, 150), rgb(243, 204, 77) , rgb(255, 187, 60));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    }
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+body > #root > div {
+    height: 100%;
+    min-height: 100vh;
+  }
+
+
+
+.container {
+    position: relative;
+}
+
+h1 {
+    font-family: Quicksand, sans-serif;
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.section-video {
+    margin: 80px 160px 0px 160px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');

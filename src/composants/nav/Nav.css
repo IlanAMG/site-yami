@@ -1,0 +1,170 @@
+.wrapper {
+    -moz-user-select: none; /* Firefox */
+ -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+ -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+ user-select: none; /* Propriété standard */
+    position: fixed;
+    z-index:100;
+    height: 100%;
+    width: 100%;
+    margin-top: 125px;
+}
+
+.nav {
+    display: flex;
+    z-index:100;
+    justify-content: center;
+}
+
+
+.section-courtmetrages-color {
+    margin: 0px 10px;
+    width: 100px;
+    height: 350px;
+    background: url(../../ASSETS/CM/CM.png);
+    position: relative;
+    transform: scale(1.05);
+    transition: 300ms;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+.section-clips-color {
+    margin: 40px 10px 0px 10px;
+    width: 100px;
+    height: 350px;
+    background: url(../../ASSETS/CLIP/CLIP.png);
+    position: relative;
+    transform: scale(1.05);
+    transition: 300ms;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+.section-publicités-color {
+    margin: 0px 10px;
+    width: 100px;
+    height: 350px;
+    background: url(../../ASSETS/PUB/PUB.png);
+    position: relative;
+    transform: scale(1.05);
+    transition: 300ms;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+.section-dessins-color {
+    margin: 40px 10px 0px 10px;
+    width: 100px;
+    height: 350px;
+    background: url(../../ASSETS/BD/BD.png);
+    position: relative;
+    transform: scale(1.05);
+    transition: 300ms;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+.section-apropos-color {
+    margin: 0px 10px;
+    width: 100px;
+    height: 350px;
+    background: url(../../ASSETS/APROPOS/APP.png);
+    position: relative;
+    transform: scale(1.05);
+    transition: 300ms;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+.section-courtmetrages {
+    margin: 0px 10px;
+    width: 100px;
+    height: 350px;
+    background: url(../../ASSETS/CM/CM.png);
+    filter: grayscale(1);
+    position: relative;
+    transition: 300ms;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+.section-clips {
+    margin: 40px 10px 0px 10px;
+    width: 100px;
+    height: 350px;
+    background: url(../../ASSETS/CLIP/CLIP.png);
+    filter: grayscale(1);
+    position: relative;
+    transition: 300ms;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+.section-publicités {
+    margin: 0px 10px;
+    width: 100px;
+    height: 350px;
+    background: url(../../ASSETS/PUB/PUB.png);
+    filter: grayscale(1);
+    position: relative;
+    transition: 300ms;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+.section-dessins {
+    margin: 40px 10px 0px 10px;
+    width: 100px;
+    height: 350px;
+    background: url(../../ASSETS/BD/BD.png);
+    filter: grayscale(1);
+    position: relative;
+    transition: 300ms;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+.section-apropos {
+    margin: 0px 10px;
+    width: 100px;
+    height: 350px;
+    background: url(../../ASSETS/APROPOS/APP.png);
+    filter: grayscale(1);
+    position: relative;
+    transition: 300ms;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+
+.nav-text {
+    position: absolute; 
+    z-index: 1;
+}
+
+.nav-link {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+/* Animation Nav */
+
+@keyframes slide {
+    0% {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    100% {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

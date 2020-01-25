@@ -1,0 +1,28 @@
+.fond-accueil {
+	display: grid;
+	height: 115px;
+	position: relative;
+	padding-bottom: 50px;
+	background-color: rgb(255, 255, 255);
+	z-index: 200;
+	box-shadow: 0px 0px 8px 1px rgba(119, 119, 119, 0.67);
+-moz-box-shadow: 0px 0px 8px 1px rgba(119, 119, 119, 0.67);
+-webkit-box-shadow: 0px 0px 8px 1px rgba(119, 119, 119, 0.67);
+}
+
+.titre-accueil {
+	-moz-user-select: none; /* Firefox */
+ -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+ -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+ user-select: none; /* Propriété standard */
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.separator {
+    width: 100px;
+	height: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #F3CE4D;
+} 
