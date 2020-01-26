@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/site-yami/static/css/main.9a112893.chunk.css",
+    "main.css": "/site-yami/static/css/main.05b96b95.chunk.css",
     "main.js": "/site-yami/static/js/main.6794c32d.chunk.js",
     "main.js.map": "/site-yami/static/js/main.6794c32d.chunk.js.map",
     "runtime-main.js": "/site-yami/static/js/runtime-main.f70016d6.js",
@@ -8,9 +8,9 @@
     "static/js/2.840011af.chunk.js": "/site-yami/static/js/2.840011af.chunk.js",
     "static/js/2.840011af.chunk.js.map": "/site-yami/static/js/2.840011af.chunk.js.map",
     "index.html": "/site-yami/index.html",
-    "precache-manifest.7a11ffec0b9167a7f3e89228c5cf1ab5.js": "/site-yami/precache-manifest.7a11ffec0b9167a7f3e89228c5cf1ab5.js",
+    "precache-manifest.97d2d454bfe9e4ec77cf0d773e8d5746.js": "/site-yami/precache-manifest.97d2d454bfe9e4ec77cf0d773e8d5746.js",
     "service-worker.js": "/site-yami/service-worker.js",
-    "static/css/main.9a112893.chunk.css.map": "/site-yami/static/css/main.9a112893.chunk.css.map",
+    "static/css/main.05b96b95.chunk.css.map": "/site-yami/static/css/main.05b96b95.chunk.css.map",
     "static/js/2.840011af.chunk.js.LICENSE": "/site-yami/static/js/2.840011af.chunk.js.LICENSE",
     "static/media/Nav.css": "/site-yami/static/media/PUB.6ea90bc1.png",
     "static/media/believe.png": "/site-yami/static/media/believe.5332c3b1.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.f70016d6.js",
     "static/js/2.840011af.chunk.js",
-    "static/css/main.9a112893.chunk.css",
+    "static/css/main.05b96b95.chunk.css",
     "static/js/main.6794c32d.chunk.js"
   ]
 }
