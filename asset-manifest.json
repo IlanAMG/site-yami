@@ -1,30 +1,33 @@
 {
   "files": {
-    "main.css": "/site-yami/static/css/main.05b96b95.chunk.css",
-    "main.js": "/site-yami/static/js/main.6794c32d.chunk.js",
-    "main.js.map": "/site-yami/static/js/main.6794c32d.chunk.js.map",
+    "main.css": "/site-yami/static/css/main.7a7332a8.chunk.css",
+    "main.js": "/site-yami/static/js/main.c488c955.chunk.js",
+    "main.js.map": "/site-yami/static/js/main.c488c955.chunk.js.map",
     "runtime-main.js": "/site-yami/static/js/runtime-main.f70016d6.js",
     "runtime-main.js.map": "/site-yami/static/js/runtime-main.f70016d6.js.map",
-    "static/js/2.840011af.chunk.js": "/site-yami/static/js/2.840011af.chunk.js",
-    "static/js/2.840011af.chunk.js.map": "/site-yami/static/js/2.840011af.chunk.js.map",
+    "static/css/2.b550b4be.chunk.css": "/site-yami/static/css/2.b550b4be.chunk.css",
+    "static/js/2.3aad9b6f.chunk.js": "/site-yami/static/js/2.3aad9b6f.chunk.js",
+    "static/js/2.3aad9b6f.chunk.js.map": "/site-yami/static/js/2.3aad9b6f.chunk.js.map",
     "index.html": "/site-yami/index.html",
-    "precache-manifest.97d2d454bfe9e4ec77cf0d773e8d5746.js": "/site-yami/precache-manifest.97d2d454bfe9e4ec77cf0d773e8d5746.js",
+    "precache-manifest.ed6f7a513c9a7f0025c023dcdd70086c.js": "/site-yami/precache-manifest.ed6f7a513c9a7f0025c023dcdd70086c.js",
     "service-worker.js": "/site-yami/service-worker.js",
-    "static/css/main.05b96b95.chunk.css.map": "/site-yami/static/css/main.05b96b95.chunk.css.map",
-    "static/js/2.840011af.chunk.js.LICENSE": "/site-yami/static/js/2.840011af.chunk.js.LICENSE",
+    "static/css/2.b550b4be.chunk.css.map": "/site-yami/static/css/2.b550b4be.chunk.css.map",
+    "static/css/main.7a7332a8.chunk.css.map": "/site-yami/static/css/main.7a7332a8.chunk.css.map",
+    "static/js/2.3aad9b6f.chunk.js.LICENSE": "/site-yami/static/js/2.3aad9b6f.chunk.js.LICENSE",
     "static/media/Nav.css": "/site-yami/static/media/PUB.6ea90bc1.png",
     "static/media/believe.png": "/site-yami/static/media/believe.5332c3b1.png",
-    "static/media/heros.png": "/site-yami/static/media/heros.d249aca5.png",
+    "static/media/heros.png": "/site-yami/static/media/heros.94a4ca50.png",
     "static/media/lookaway.png": "/site-yami/static/media/lookaway.f98d8142.png",
     "static/media/onimprovise.png": "/site-yami/static/media/onimprovise.69fe2f59.png",
     "static/media/palante.png": "/site-yami/static/media/palante.270f6ca5.png",
-    "static/media/petitpas.png": "/site-yami/static/media/petitpas.8804748d.png",
+    "static/media/petitpas.png": "/site-yami/static/media/petitpas.b6b0e976.png",
     "static/media/photoprofil.png": "/site-yami/static/media/photoprofil.85c71c5a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f70016d6.js",
-    "static/js/2.840011af.chunk.js",
-    "static/css/main.05b96b95.chunk.css",
-    "static/js/main.6794c32d.chunk.js"
+    "static/css/2.b550b4be.chunk.css",
+    "static/js/2.3aad9b6f.chunk.js",
+    "static/css/main.7a7332a8.chunk.css",
+    "static/js/main.c488c955.chunk.js"
   ]
 }
