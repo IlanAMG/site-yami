@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/site-yami/static/css/main.2f895fda.chunk.css",
-    "main.js": "/site-yami/static/js/main.71e38536.chunk.js",
-    "main.js.map": "/site-yami/static/js/main.71e38536.chunk.js.map",
+    "main.js": "/site-yami/static/js/main.be540a06.chunk.js",
+    "main.js.map": "/site-yami/static/js/main.be540a06.chunk.js.map",
     "runtime-main.js": "/site-yami/static/js/runtime-main.f70016d6.js",
     "runtime-main.js.map": "/site-yami/static/js/runtime-main.f70016d6.js.map",
     "static/css/2.b550b4be.chunk.css": "/site-yami/static/css/2.b550b4be.chunk.css",
     "static/js/2.3aad9b6f.chunk.js": "/site-yami/static/js/2.3aad9b6f.chunk.js",
     "static/js/2.3aad9b6f.chunk.js.map": "/site-yami/static/js/2.3aad9b6f.chunk.js.map",
     "index.html": "/site-yami/index.html",
-    "precache-manifest.ca52cc262c817a6fbbbfcdbdbf4de08b.js": "/site-yami/precache-manifest.ca52cc262c817a6fbbbfcdbdbf4de08b.js",
+    "precache-manifest.555740a89825175e1d7d98ea82e9ae02.js": "/site-yami/precache-manifest.555740a89825175e1d7d98ea82e9ae02.js",
     "service-worker.js": "/site-yami/service-worker.js",
     "static/css/2.b550b4be.chunk.css.map": "/site-yami/static/css/2.b550b4be.chunk.css.map",
     "static/css/main.2f895fda.chunk.css.map": "/site-yami/static/css/main.2f895fda.chunk.css.map",
@@ -28,6 +28,6 @@
     "static/css/2.b550b4be.chunk.css",
     "static/js/2.3aad9b6f.chunk.js",
     "static/css/main.2f895fda.chunk.css",
-    "static/js/main.71e38536.chunk.js"
+    "static/js/main.be540a06.chunk.js"
   ]
 }
