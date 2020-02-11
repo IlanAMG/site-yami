@@ -10,7 +10,7 @@ import Dessins from './composants/dessins/Dessins'
 import Apropos from './composants/apropos/Apropos'
 import FlecheGoTop from './composants/FlecheGoTop/FlecheGoTop';
 
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import ScrollToTopRoute from './composants/ScrollToTopRoute/ScrollToTopRoute';
 
 
@@ -18,7 +18,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <Router>
         <div className="container">
           <Switch>
             <Route exact path="/" component={Accueil} />
@@ -31,7 +31,7 @@ export default class App extends Component {
           <FlecheGoTop />
           <Footer />
         </div>
-      </BrowserRouter>
+      </Router>
       
     )
   }
