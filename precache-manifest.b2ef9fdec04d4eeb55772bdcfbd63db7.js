@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ab6dd73839a2a06e7bfc9289c86d33b",
+    "revision": "ce0f3d4e11b2b90be32497e33dc71b70",
     "url": "/site-yami/index.html"
   },
   {
-    "revision": "5992216bfb44563f664a",
+    "revision": "f461ce293a57761660af",
     "url": "/site-yami/static/css/2.b550b4be.chunk.css"
   },
   {
-    "revision": "12921936457cc33d3545",
-    "url": "/site-yami/static/css/main.2f895fda.chunk.css"
+    "revision": "47a74fa63d6b3cded64b",
+    "url": "/site-yami/static/css/main.6a2b7b57.chunk.css"
   },
   {
-    "revision": "5992216bfb44563f664a",
-    "url": "/site-yami/static/js/2.3aad9b6f.chunk.js"
+    "revision": "f461ce293a57761660af",
+    "url": "/site-yami/static/js/2.7540f190.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/site-yami/static/js/2.3aad9b6f.chunk.js.LICENSE"
+    "url": "/site-yami/static/js/2.7540f190.chunk.js.LICENSE"
   },
   {
-    "revision": "12921936457cc33d3545",
-    "url": "/site-yami/static/js/main.be540a06.chunk.js"
+    "revision": "47a74fa63d6b3cded64b",
+    "url": "/site-yami/static/js/main.5d033c78.chunk.js"
   },
   {
     "revision": "d4a9fbef79e2d99b2b4f",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/site-yami/static/media/PUB.6ea90bc1.png"
   },
   {
+    "revision": "f35f9dc69097740e86532e2f20b38526",
+    "url": "/site-yami/static/media/apachery.f35f9dc6.png"
+  },
+  {
     "revision": "5332c3b1f8cf2e9bd1d35d720aa75e0c",
     "url": "/site-yami/static/media/believe.5332c3b1.png"
   },
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "69fe2f5989e8fc5ea0964948493ac732",
     "url": "/site-yami/static/media/onimprovise.69fe2f59.png"
+  },
+  {
+    "revision": "b3090ede89a1b14fd2ede0e744a0da2f",
+    "url": "/site-yami/static/media/painchoco.b3090ede.png"
   },
   {
     "revision": "270f6ca568d7baae30dd50d470557367",
