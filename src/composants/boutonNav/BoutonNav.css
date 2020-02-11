@@ -27,7 +27,7 @@
     height: auto;
     transition: 300ms;
     position: fixed;
-    z-index: 5;
+    z-index: 106;
     transform: scale(1.06);
 }
 
