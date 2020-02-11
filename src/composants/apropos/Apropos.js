@@ -41,13 +41,13 @@ export default class Apropos extends Component {
                 </div>
                 <div className={`section${this.state.BoutonClick? ' blur': ''}`}>
                     <img className='profil' src={photoprofil} alt='profil'/>
-                    <p className='contact'>0606060606<br/>gmail@gmail.com<br/>PARIS</p>
+                    <p className='contact'>0675282090<br/>yamiquinton@hotmail.fr<br/>PARIS</p>
                     <span className={`separator-profil${this.state.BoutonClick? ' blur': ''}`}></span>
                     <p className='text'>    
-Grand adepte des histoires et du dessins, j'étais généralement le dessinateur du fond de la classe.
+Grand adèpte des histoires et du dessin, j'étais généralement le dessinateur du fond de la classe.
 Adolescent, j'obtiens ma première caméra pour filmer des kickflips au skatepark. Je démarre le cadrage et le montage.
-Après le bac, je me lasse rapidement de la classe préparatoire économique aux grandes écoles. Je trouves une équipe et commence à faire mes premiers court métrage.
-<br/>J'intègre plus tard une école de cinéma, directement admis en deuxième années grâce à mes acquis.
+Après le bac, je me lasse rapidement de la classe préparatoire économique aux grandes écoles. Je trouve une équipe et je commence à faire mes premiers court métrage.
+<br/>J'intègre plus tard une école de cinéma, directement admis en deuxième année grâce à mes acquis.
 Nouveau matériel en main, nouvelles compétences, je commence les prestations vidéo rémunérées.<br/><br/>
 
 Aujourd'hui j'écris, réalise, cadre et/ou monte différents projets tout en gardant la même passion qui me guidait au skatepark.
