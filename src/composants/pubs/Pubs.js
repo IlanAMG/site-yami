@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import BoutonNav from '../../composants/boutonNav/BoutonNav'
+import LecteurVideo from '../LecteurVideo/LecteurVideo';
+import Miniature from '../miniature/Miniature';
+import apachery from '../../ASSETS/MINIATURE/apachery.png'
 
 export default class Pubs extends Component {
     constructor(props){
@@ -8,10 +11,19 @@ export default class Pubs extends Component {
       }
       
     state = {
-        BoutonClick: false
+        BoutonClick: false,
+        ToggleVideo: false,
+        lienVideo: ['eTfdQVOQa7o'],
+        activeVideo: null
     }
 
     escFunction(event){
+        if(event.keyCode === 27 && this.state.ToggleVideo) {
+            this.setState(state => ({
+                ToggleVideo: state.ToggleVideo === false,
+                activeVideo: null
+              }));
+        }
         if(event.keyCode === 27 && this.state.BoutonClick) {
             this.setState(state => ({
                 BoutonClick: state.BoutonClick === false
@@ -22,6 +34,13 @@ export default class Pubs extends Component {
     handleClick = () => {
         this.setState(state => ({
             BoutonClick: !state.BoutonClick
+          }));
+    }
+
+    handleVideo = (i) => {
+        this.setState(state => ({
+            ToggleVideo: !state.ToggleVideo,
+            activeVideo: state.lienVideo[i]
           }));
     }
 
@@ -36,9 +55,17 @@ export default class Pubs extends Component {
         return (
             <div>
                 <div className="fond-accueil">
-                    <h1 className={`titre-accueil${this.state.BoutonClick? ' blur': ''}`} >Publicités</h1>
+                {this.state.ToggleVideo ? <LecteurVideo 
+                                            closeEscPress={this.escFunction} 
+                                            closeClick={this.handleVideo}
+                                            id={this.state.activeVideo}
+                                            /> : null}
+                    <h1 className={`titre-accueil${this.state.BoutonClick? ' blur': ''}`} >Promotionnel</h1>
                     <span className={`separator${this.state.BoutonClick? ' blur': ''}`}></span>
                     <BoutonNav Click={this.handleClick} Toggle={this.state.BoutonClick}/>
+                </div>
+                <div className={`section-video${this.state.BoutonClick? ' blur': ''}`}>
+                    <Miniature imgvideo={apachery} index='0' videoClick={this.handleVideo} />
                 </div>
             </div>
         )

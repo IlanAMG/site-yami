@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import Nav from '../nav/Nav'
 import './BoutonNav.css'
+import rubrique from '../../ASSETS/rubrique.png'
+import rubriquecouleur from '../../ASSETS/rubriquecouleur.png'
 
 export default class BoutonNav extends Component {
     constructor(props){
@@ -15,16 +17,17 @@ export default class BoutonNav extends Component {
         }
     }  
 
+
     render() {
+    
         return (
             <Fragment>
-                <label 
-                    className={`bouton-nav${this.props.Toggle? '-active': ''}`} 
-                    onClick={() => this.props.Click()}>
-                    &#9776;
-                </label>
-
-                    {this.props.Toggle ? <Nav /> : null}
+                {this.props.Toggle? 
+                <img className='bouton-nav-active'
+                src={rubriquecouleur} alt='' onClick={() => this.props.Click()}/> : 
+                <img className='bouton-nav'
+                src={rubrique} alt='' onClick={() => this.props.Click()}/> }
+                {this.props.Toggle ? <Nav /> : null}
             </Fragment>
         )
     }

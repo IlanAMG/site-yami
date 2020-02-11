@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Miniature.css'
+import 'react-lazy-load-image-component/src/effects/opacity.css';
 
-export default class Miniature extends Component {
-
-   render(){
-        return (
+const Miniature = ({ videoClick, imgvideo, index }) => (
           <div>
-            <img onClick={() => this.props.videoClick(this.props.index)} className='imgvideo' src={this.props.imgvideo} alt='vidéo'/>
+            <img onClick={() => videoClick(index)} className='imgvideo' src={imgvideo} alt='vidéo'/>
           </div>
         )
-    }
-}
+
+export default Miniature
+

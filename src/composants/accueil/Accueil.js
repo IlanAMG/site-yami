@@ -7,9 +7,10 @@ export default function Accueil() {
         <div>
             <div className="fond-accueil">
                 <h1 className="titre-accueil">Yami Quinton</h1>
-                <span className="separator"></span>    
-                </div>
-                <Nav />
+                <span className="separator"></span> 
+                <Nav />   
+            </div>
+            
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import BoutonNav from '../../composants/boutonNav/BoutonNav'
+import './Dessins.css'
 
 export default class Dessins extends Component {
     constructor(props){
@@ -35,6 +36,12 @@ export default class Dessins extends Component {
                     <h1 className={`titre-accueil${this.state.BoutonClick? ' blur': ''}`} >Dessins</h1>
                     <span className={`separator${this.state.BoutonClick? ' blur': ''}`}></span>
                     <BoutonNav Click={this.handleClick} Toggle={this.state.BoutonClick}/>
+                </div>
+                <div className={`section-bd${this.state.BoutonClick? ' blur': ''}`}>
+                <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+                <div>
+                    <iframe title='insta' src="https://cdn.lightwidget.com/widgets/52b2fbe5880d5c71b4e2dcc3d08931c2.html" scrolling="no" allowtransparency="true" className="lightwidget-widget"></iframe>
+                </div>
                 </div>
             </div>
         )

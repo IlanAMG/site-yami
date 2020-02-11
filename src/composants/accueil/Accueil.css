@@ -26,3 +26,12 @@
 	margin-right: auto;
 	background: #F3CE4D;
 } 
+
+@media (max-height: 555px) {
+	.fond-accueil {
+		height: 90px;
+	}
+	h1 {
+		font-size: 1.6em;
+	}
+}

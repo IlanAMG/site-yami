@@ -1,4 +1,5 @@
 .imgvideo {
+    justify-content: center;
     width: 100%;
     height: auto;
     margin-bottom: 60px;
@@ -11,7 +12,14 @@
     transition: 400ms;
 }
 
+@media (max-width: 850px) {
+    .imgvideo {
+        border: 5px white solid;
+    }
+}
+
 .imgvideo:hover {
     transition: 400ms;
-    transform: scale(1.03)
+    transform: scale(1.04)
 }
+

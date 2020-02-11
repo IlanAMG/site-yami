@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import BoutonNav from '../../composants/boutonNav/BoutonNav'
-import photoprofil from '../../ASSETS/photoprofil.jpg'
+import photoprofil from '../../ASSETS/photoprofil.png'
 import './Apropos.css'
 
 export default class Apropos extends Component {
@@ -41,10 +41,12 @@ export default class Apropos extends Component {
                 </div>
                 <div className={`section${this.state.BoutonClick? ' blur': ''}`}>
                     <img className='profil' src={photoprofil} alt='profil'/>
-                    <p>    
+                    <p className='contact'>0606060606<br/>gmail@gmail.com<br/>PARIS</p>
+                    <span className={`separator-profil${this.state.BoutonClick? ' blur': ''}`}></span>
+                    <p className='text'>    
 Grand adepte des histoires et du dessins, j'étais généralement le dessinateur du fond de la classe.
 Adolescent, j'obtiens ma première caméra pour filmer des kickflips au skatepark. Je démarre le cadrage et le montage.
-Baccalauréat en poche, je quitte la classe préparatoire économique aux grandes écoles pour faire mes premiers court métrage en autodidacte.
+Après le bac, je me lasse rapidement de la classe préparatoire économique aux grandes écoles. Je trouves une équipe et commence à faire mes premiers court métrage.
 <br/>J'intègre plus tard une école de cinéma, directement admis en deuxième années grâce à mes acquis.
 Nouveau matériel en main, nouvelles compétences, je commence les prestations vidéo rémunérées.<br/><br/>
 

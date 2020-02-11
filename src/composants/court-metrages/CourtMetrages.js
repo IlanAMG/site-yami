@@ -6,6 +6,7 @@ import LecteurVideo from '../LecteurVideo/LecteurVideo';
 import heros from '../../ASSETS/MINIATURE/heros.png'
 import onimprovise from '../../ASSETS/MINIATURE/onimprovise.png'
 import petitpas from '../../ASSETS/MINIATURE/petitpas.png'
+import painchoco from '../../ASSETS/MINIATURE/painchoco.png'
 
 export default class CourtMetrages extends Component {
     constructor(props){
@@ -16,7 +17,7 @@ export default class CourtMetrages extends Component {
     state = {
         BoutonClick: false,
         ToggleVideo: false,
-        lienVideo: ['RUsXK9uTtms', 'JUFMJFtx7sU','zlT3O5uVtk0'],
+        lienVideo: ['JUFMJFtx7sU', 'RUsXK9uTtms', '4q7tqpZ3WYw', 'zlT3O5uVtk0'],
         activeVideo: null
     }
 
@@ -47,6 +48,8 @@ export default class CourtMetrages extends Component {
           }));
     }
 
+  
+
     componentDidMount(){
         document.addEventListener("keydown", this.escFunction, false);
       }
@@ -65,12 +68,13 @@ export default class CourtMetrages extends Component {
                                             /> : null}
                     <h1 className={`titre-accueil${this.state.BoutonClick? ' blur': ''}`} >Court-métrages</h1>
                     <span className={`separator${this.state.BoutonClick? ' blur': ''}`}></span>
-                    <BoutonNav Click={this.handleClick} Toggle={this.state.BoutonClick}/>
+                    <BoutonNav ClickOutside={this.handleClickOutside} Click={this.handleClick} Toggle={this.state.BoutonClick} />
                 </div>
                 <div className={`section-video${this.state.BoutonClick? ' blur': ''}`}>
-                    <Miniature imgvideo={heros} index='0' videoClick={this.handleVideo} />
-                    <Miniature imgvideo={onimprovise} index='1' videoClick={this.handleVideo} />
-                    <Miniature imgvideo={petitpas} index='2' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={onimprovise} index='0' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={heros} index='1' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={painchoco} index='2' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={petitpas} index='3' videoClick={this.handleVideo} />
                 </div>
                 
             </div>
