@@ -1,6 +1,6 @@
 .section {
     display: grid;
-    grid-template-columns: 33% 23% 2% 39% 1fr;
+    grid-template-columns: 33% 28% 2% 1fr;
 }
 
 .separator-profil {
