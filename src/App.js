@@ -22,7 +22,7 @@ export default class App extends Component {
         <div className="container">
           <Switch>
             <Route exact path="/" component={Accueil} />
-            <ScrollToTopRoute path="/courtmetrages" component={CourtMetrages} />
+            <ScrollToTopRoute path="/courtsmetrages" component={CourtMetrages} />
             <ScrollToTopRoute path="/clips" component={Clips} />
             <ScrollToTopRoute path="/pubs" component={Pubs} />
             <ScrollToTopRoute path="/dessins" component={Dessins} />

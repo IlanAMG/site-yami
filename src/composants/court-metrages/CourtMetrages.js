@@ -66,7 +66,7 @@ export default class CourtMetrages extends Component {
                                             closeClick={this.handleVideo}
                                             id={this.state.activeVideo}
                                             /> : null}
-                    <h1 className={`titre-accueil${this.state.BoutonClick? ' blur': ''}`} >Court-métrages</h1>
+                    <h1 className={`titre-accueil${this.state.BoutonClick? ' blur': ''}`} >Courts-métrages</h1>
                     <span className={`separator${this.state.BoutonClick? ' blur': ''}`}></span>
                     <BoutonNav ClickOutside={this.handleClickOutside} Click={this.handleClick} Toggle={this.state.BoutonClick} />
                 </div>
