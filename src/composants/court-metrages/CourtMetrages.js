@@ -7,6 +7,7 @@ import heros from '../../ASSETS/MINIATURE/heros.png'
 import onimprovise from '../../ASSETS/MINIATURE/onimprovise.png'
 import petitpas from '../../ASSETS/MINIATURE/petitpas.png'
 import painchoco from '../../ASSETS/MINIATURE/painchoco.png'
+import boutique from '../../ASSETS/MINIATURE/boutique.png'
 
 export default class CourtMetrages extends Component {
     constructor(props){
@@ -17,7 +18,7 @@ export default class CourtMetrages extends Component {
     state = {
         BoutonClick: false,
         ToggleVideo: false,
-        lienVideo: ['JUFMJFtx7sU', 'RUsXK9uTtms', '4q7tqpZ3WYw', 'zlT3O5uVtk0'],
+        lienVideo: ['L-8bMNXDWxE', 'JUFMJFtx7sU', 'RUsXK9uTtms', '4q7tqpZ3WYw', 'zlT3O5uVtk0'],
         activeVideo: null
     }
 
@@ -71,10 +72,11 @@ export default class CourtMetrages extends Component {
                     <BoutonNav ClickOutside={this.handleClickOutside} Click={this.handleClick} Toggle={this.state.BoutonClick} />
                 </div>
                 <div className={`section-video${this.state.BoutonClick? ' blur': ''}`}>
-                    <Miniature imgvideo={onimprovise} index='0' videoClick={this.handleVideo} />
-                    <Miniature imgvideo={heros} index='1' videoClick={this.handleVideo} />
-                    <Miniature imgvideo={painchoco} index='2' videoClick={this.handleVideo} />
-                    <Miniature imgvideo={petitpas} index='3' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={boutique} index='0' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={onimprovise} index='1' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={heros} index='2' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={painchoco} index='3' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={petitpas} index='4' videoClick={this.handleVideo} />
                 </div>
                 
             </div>

@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import BoutonNav from '../../composants/boutonNav/BoutonNav'
 import LecteurVideo from '../LecteurVideo/LecteurVideo';
 import Miniature from '../miniature/Miniature';
-import apachery from '../../ASSETS/MINIATURE/apachery.png'
+import hypo from '../../ASSETS/MINIATURE/hypo.png'
+import miniafmb from '../../ASSETS/MINIATURE/miniafmb.png'
 
 export default class Pubs extends Component {
     constructor(props){
@@ -13,7 +14,7 @@ export default class Pubs extends Component {
     state = {
         BoutonClick: false,
         ToggleVideo: false,
-        lienVideo: ['eTfdQVOQa7o'],
+        lienVideo: ['_MY6YllVtzI'],
         activeVideo: null
     }
 
@@ -65,7 +66,8 @@ export default class Pubs extends Component {
                     <BoutonNav Click={this.handleClick} Toggle={this.state.BoutonClick}/>
                 </div>
                 <div className={`section-video${this.state.BoutonClick? ' blur': ''}`}>
-                    <Miniature imgvideo={apachery} index='0' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={hypo} index='0' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={miniafmb} index='0' videoClick={false} lien={'https://www.instagram.com/p/CAH9QtfFhDf/'} />
                 </div>
             </div>
         )
