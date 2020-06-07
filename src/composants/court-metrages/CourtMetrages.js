@@ -18,7 +18,7 @@ export default class CourtMetrages extends Component {
     state = {
         BoutonClick: false,
         ToggleVideo: false,
-        lienVideo: ['L-8bMNXDWxE', 'JUFMJFtx7sU', 'RUsXK9uTtms', '4q7tqpZ3WYw', 'zlT3O5uVtk0'],
+        lienVideo: ['JUFMJFtx7sU', 'L-8bMNXDWxE', 'RUsXK9uTtms', '4q7tqpZ3WYw', 'zlT3O5uVtk0'],
         activeVideo: null
     }
 
@@ -72,9 +72,9 @@ export default class CourtMetrages extends Component {
                     <BoutonNav ClickOutside={this.handleClickOutside} Click={this.handleClick} Toggle={this.state.BoutonClick} />
                 </div>
                 <div className={`section-video${this.state.BoutonClick? ' blur': ''}`}>
-                    <Miniature imgvideo={boutique} index='0' videoClick={this.handleVideo} />
-                    <Miniature imgvideo={onimprovise} index='1' videoClick={this.handleVideo} />
-                    <Miniature imgvideo={heros} index='2' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={onimprovise} index='0' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={heros} index='1' videoClick={this.handleVideo} />
+                    <Miniature imgvideo={boutique} index='2' videoClick={this.handleVideo} />
                     <Miniature imgvideo={painchoco} index='3' videoClick={this.handleVideo} />
                     <Miniature imgvideo={petitpas} index='4' videoClick={this.handleVideo} />
                 </div>
