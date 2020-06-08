@@ -69,7 +69,7 @@ export default class Nav extends Component {
                                 animationDuration: this.state.animationActive === true ? '1500ms' : ''
                                 }}
                             >
-                            <Link to="/pubs"><img className="nav-text" alt='cmt' src={PUBt}/></Link>  
+                            <Link to="/animations"><img className="nav-text" alt='cmt' src={PUBt}/></Link>  
                         </div>
                         <div 
                             

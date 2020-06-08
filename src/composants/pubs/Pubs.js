@@ -61,7 +61,7 @@ export default class Pubs extends Component {
                                             closeClick={this.handleVideo}
                                             id={this.state.activeVideo}
                                             /> : null}
-                    <h1 className={`titre-accueil${this.state.BoutonClick? ' blur': ''}`} >Promotionnel</h1>
+                    <h1 className={`titre-accueil${this.state.BoutonClick? ' blur': ''}`} >Animations</h1>
                     <span className={`separator${this.state.BoutonClick? ' blur': ''}`}></span>
                     <BoutonNav Click={this.handleClick} Toggle={this.state.BoutonClick}/>
                 </div>

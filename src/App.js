@@ -24,7 +24,7 @@ export default class App extends Component {
             <Route exact path="/" component={Accueil} />
             <ScrollToTopRoute path="/courtsmetrages" component={CourtMetrages} />
             <ScrollToTopRoute path="/clips" component={Clips} />
-            <ScrollToTopRoute path="/pubs" component={Pubs} />
+            <ScrollToTopRoute path="/animations" component={Pubs} />
             <ScrollToTopRoute path="/dessins" component={Dessins} />
             <ScrollToTopRoute path="/apropos" component={Apropos} />
           </Switch>
