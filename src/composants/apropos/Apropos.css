@@ -27,7 +27,7 @@
 .section .text {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.2em;
-    line-height: 1.6;
+    line-height: 23px;
     text-align: center;
     justify-self: center;
    align-self: center;
@@ -46,6 +46,12 @@
 
 /* REPONSIVE */
 
+@media (max-width: 1300px) {
+    .section .text {
+        font-size: 1.1em;
+        line-height: 19px;
+    }
+}
 @media (max-width: 1155px) {
     .section .contact {
         font-size: 1.2em;
@@ -53,6 +59,7 @@
 
     .section .text {
         font-size: 0.9em;
+        line-height: 17px;
     }
 }
 

@@ -44,12 +44,16 @@ export default class Apropos extends Component {
                     <p className='contact'>0675282090<br/>yamiquinton@hotmail.fr<br/>PARIS</p>
                     <span className={`separator-profil${this.state.BoutonClick? ' blur': ''}`}></span>
                     <p className='text'>    
-Mon premier montage vidéo a été une compilation de descentes de rampe sur une luge improvisée avec des séparateurs de voie en plastique. <i>– 2012</i><br/>
-Quand je tombais au skatepark avec la caméra dans les mains elle s’en sortait toujours indemne, à l’instar de mes autres membres. <i>– 2013</i><br/> 
-J’ai tourné mon premier court métrage avec un micro perche éteint et sans script. <i>– 2014</i><br/>
-Le premier scénario que j’ai écrit devait aboutir à un court métrage de 20 minutes. Après une première version d’une heure et pas mal de cuts, j’avais un moyen métrage de 40 minutes apparemment « drôle et regardable ». <i>– 2016</i><br/>
-Faire un court métrage avec des enfants m’a fait comprendre pourquoi ils sont parfois meilleur acteur que les adultes. <i>– 2019</i><br/>
-Ma madeleine de Proust : « Le Château dans le ciel » d’Hayao Miyazaki.
+                    Bien que la comédie (surtout absurde) me plaise beaucoup, je préfère le drame.<br/><br/>
+ 
+ Mes trois projets principaux (deux courts et un long) que je développe à temps plein parlent de faits sociétaux. Les trois parlent de l'humain caché derrière un métier dont nous avons une mauvaise image. Par exemple, mon projet de long métrage "L'étincelle" met le doigt sur des problèmes au sein de l'Éducation Nationale.<br/><br/> 
+ 
+ Peut être suis-je trop empathique? Ou alors peut-être que je cherche simplement à lever le voile sur des idées reçues pour qu'on se comprennent les uns et les autres?<br/><br/>
+ 
+ Quand j'écris, je vais voir ces personnes et j'écoutes leurs histoires. Leurs retours sur mes scénarios sont très important à mes yeux.<br/> 
+ Entre fiction et documentaire, je compose des récits avec des faits qui nous entourent.<br/><br/>
+ 
+ Je travailles également sur d'autres projets : film d'animation (long), comédies, thriller,  court métrage interactif... Je prend un grand plaisir à mêler passion et rigueur de travail."
                     </p>
                 </div>
             </div>
